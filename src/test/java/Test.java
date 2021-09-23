@@ -27,7 +27,7 @@ public class Test {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }finally {
-            //关闭资源,倒关
+            //关闭资源
             try {
                 if(rs != null) rs.close();
                 if(pstmt != null) pstmt.close();
