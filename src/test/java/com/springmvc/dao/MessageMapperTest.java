@@ -29,7 +29,7 @@ public class MessageMapperTest {
     @Test
     public void insert() {
         Message message = new Message();
-        message.setCommand("吃饭1");
+        message.setCommand("吃饭-测试git");
         message.setContent("睡觉1");
         message.setDescription("打豆豆1");
         int result = mapper.insert(message);
